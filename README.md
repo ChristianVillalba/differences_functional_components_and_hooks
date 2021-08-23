@@ -1,4 +1,4 @@
-# react_components_introduction
+# Functional Component & Class Component
 Created with CodeSandbox.      
 Notes from React module.     
 The Complete 2021 Web Development Bootcamp     
