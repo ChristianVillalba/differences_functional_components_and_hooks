@@ -5,8 +5,16 @@ The Complete 2021 Web Development Bootcamp
 Instructor: Dr. Angela Yu   
 
 ## Description
+This project just makes a comparation between 
+* Functional Component
+* Class Component
+
+These are the two ways to add state into a React app.
+
 We created ClassComponent.jsx, it has a single button which increases the number of the count.           
-FunctionalComponent.jsx does the same, but it requires less code.      
+FunctionalComponent.jsx does the same, but it requires less code.  
+
+## Notes
 
 In the past, the main reason why people converted their functional components into class components        
 was because it was required in order to have state.      
@@ -18,15 +26,7 @@ To solve this problem Hooks were created
  
 We can only use hooks with Functional Components.      
 The React team recommends using hooks instead of classes because this is a much easier way of managing state....      
-But will occasionally see components built using classes.      
-
-
-
-## Notes
-
-There were two ways of adding state into a React app: 
-* Functional Component
-* Class Component
+But we will occasionally see components built using classes.      
 
 ### Functional Component
 We create functions that render the separated React Components.
