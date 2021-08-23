@@ -5,6 +5,25 @@ The Complete 2021 Web Development Bootcamp
 Instructor: Dr. Angela Yu   
 
 ## Description
+We created ClassComponent.jsx, it has a single button which increases the number of the count.           
+FunctionalComponent.jsx does the same, but it requires less code.      
+
+In the past, the main reason why people converted their functional components into class components        
+was because it was required in order to have state.      
+* [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html) > Converting a Function to a Class     
+
+The code resulting using "class" is longer, harder and it gets pretty complicated when you want to reuse some of your state functionality across different components.
+To solve this problem Hooks were created
+* [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)     
+ 
+We can only use hooks with Functional Components.      
+The React team recommends using hooks instead of classes because this is a much easier way of managing state....      
+But will occasionally see components built using classes.      
+
+
+
+## Notes
+
 There were two ways of adding state into a React app: 
 * Functional Component
 * Class Component
@@ -37,9 +56,6 @@ class App extends React.Component {
 
 export default App;
 ```
-Class don't need parenthesis ()         
+Class don't need parenthesis ( )         
 We need to extend our class from the React.Component      
 To render our component we have to render inside our render() ...  method 
-
-In the past, the main reason why people converted their functional components into class components        
-was because it was required in order to have state.
